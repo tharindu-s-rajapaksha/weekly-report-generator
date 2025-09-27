@@ -70,6 +70,8 @@ Follow these steps to generate your combined weekly report PDF:
     Give me the JSON for Week 01.
     ```
 
+    * important: check the json content and change it to your details if needed. (eg: working mode)
+
     **Prompt 3:**
     ```
     now give me all 24 weeks in a list structure like this:
