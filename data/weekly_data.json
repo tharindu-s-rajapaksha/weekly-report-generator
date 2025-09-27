@@ -1,0 +1,1106 @@
+[
+  {
+    "week_no": "01",
+    "week_ending": "Sunday: 23-02-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "17-02",
+        "description": "Onboarding meetings with the team. Cloned and explored the 'dabu-be-worker' codebase to get familiar with existing projects. Learned about RunPod for GPU deployment."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "18-02",
+        "description": "Conducted self-study on cloud GPUs and serverless architecture. Set up a dual-boot Ubuntu development environment, resolving installation and configuration issues."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "19-02",
+        "description": "Successfully ran the DABU backend worker. Learned advanced Git commands and workflows for branching and merging. Integrated recent changes from the dev branch."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "20-02",
+        "description": "Began work on the new PhonicsMaker project. Created a detailed implementation plan, researched key technologies like WeasyPrint and DALL-E, and finalized the system architecture."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "21-02",
+        "description": "Initialized the PhonicsMaker backend repository. Began development by debugging the base template and started integrating core project features."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "22-02",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "23-02",
+        "description": ""
+      }
+    ],
+    "details_notes": "This was an intensive first week focused on onboarding and setting up for a new major project. I quickly familiarized myself with the company's existing codebase and development tools like RunPod. A significant effort was dedicated to establishing a stable Ubuntu development environment. By mid-week, I was assigned to the new PhonicsMaker project, where I created a comprehensive implementation plan and researched the core technologies. The week concluded with the successful initialization of the project repository and the start of active development.",
+    "engineer_remarks": "Tharindu had an excellent start. He demonstrated a proactive attitude by quickly setting up his environment and familiarizing himself with our projects. His detailed planning and research for the new PhonicsMaker project were impressive and set a strong foundation for its success. He is a fast learner and has integrated well with the team.",
+    "engineer_date": "23-02-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "02",
+    "week_ending": "Sunday: 02-03-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "24-02",
+        "description": "Integrated core backend features for PhonicsMaker including OpenAI API, Jinja2, and WeasyPrint. Learned about queue handling with Celery and Redis."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "25-02",
+        "description": "Implemented a complete task queue handling system using Celery and Redis for asynchronous story generation. Drew diagrams to map the queue management architecture."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "26-02",
+        "description": "Added asynchronous image generation to the workflow. Refined prompts for better output and enhanced the generated PDF template with custom fonts."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "27-02",
+        "description": "Worked on debugging a complex Docker deployment error related to shared storage between containers. Conducted experiments on constant environment generation."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "28-02",
+        "description": "Dramatically optimized generation speed by 10x by implementing a parallel PDF generation mechanism and parallelizing image generation tasks."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "01-03",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "02-03",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week was focused on building the core architecture of the PhonicsMaker backend. I successfully integrated key APIs and libraries to generate basic PDFs. A major achievement was architecting and implementing a robust asynchronous task queue using Celery and Redis. This system was crucial for the week's biggest success: a 10x optimization in generation speed achieved by parallelizing image and PDF creation. The week concluded with resolving a challenging Docker deployment issue, ensuring the system was stable and scalable.",
+    "engineer_remarks": "Exceptional progress this week. Tharindu's work on the Celery and Redis task queue was well-architected and vital for the project. The 10x performance optimization he achieved is a significant engineering win. His ability to diagnose and solve complex deployment issues is commendable. A highly productive week.",
+    "engineer_date": "02-03-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "03",
+    "week_ending": "Sunday: 09-03-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "03-03",
+        "description": "Identified and fixed a Celery task failure due to API read timeouts. Added book generation time and PDF link to the API response for better tracking."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "04-03",
+        "description": "Researched new technologies for better PDF generation, including the Canva API. Explored methods for full-page image generation with DALL-E 3."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "05-03",
+        "description": "Further researched APIs for constant image generation. Identified text placement algorithms using OpenCV and K-Means clustering for dominant color identification."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "06-03",
+        "description": "Researched and tested methods for identifying suitable places to put captions on images, including edge detection and saliency detection."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "07-03",
+        "description": "Began work on the 'League Wayfinder' project. Researched pathfinding algorithms like A* and D*, and implemented a basic A* algorithm to find paths on a map."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "08-03",
+        "description": "Switched development environment from Ubuntu to Arch Linux to resolve persistent OS bugs. Installed and configured all necessary development tools."
+      },
+      {
+        "day": "SUNDAY",
+        "date": "09-03",
+        "description": "Researched various AI image generation models (Flux Dev, Janus Pro) and their API pricing. Conducted experiments and concluded Flux Dev was the best option."
+      }
+    ],
+    "details_notes": "This week involved both enhancing the existing PhonicsMaker project and starting a new one. I resolved critical API timeout issues and researched advanced design generation techniques. A significant portion of the week was dedicated to the new 'League Wayfinder' project, where I implemented the A* pathfinding algorithm. I also undertook a major environment upgrade, migrating to Arch Linux for better stability. The week ended with in-depth research into cost-effective image generation APIs, identifying a clear path forward for future development.",
+    "engineer_remarks": "Tharindu showed great versatility this week, effectively balancing bug fixes, new feature research, and the initiation of a new project. His research into pathfinding algorithms and image generation APIs was thorough and provided valuable insights. His initiative to improve his development environment demonstrates a strong commitment to efficiency.",
+    "engineer_date": "09-03-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "04",
+    "week_ending": "Sunday: 16-03-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "10-03",
+        "description": "Deployed the League Wayfinder web application. Researched and identified a suitable IoT button (MagiClick) for the PadelBuddy project."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "11-03",
+        "description": "Implemented the Runware API for image generation in PhonicsMaker. Created a short guide for the team on the newly identified PadelBuddy hardware."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "12-03",
+        "description": "Learned about LoRA and schedulers for image generation. Resolved PhonicsMaker integration issues and added waypoint time durations to Wayfinder."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "13-03",
+        "description": "Learned about trigger words for Flux Dev. Integrated a prompt enhancer and restructured the prompt codebase to be compatible with Flux Dev."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "14-03",
+        "description": "Learned advanced prompt engineering techniques for text and image generation. Solved a parallel image generation issue by using direct API calls instead of the SDK."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "15-03",
+        "description": "Resolved masking issues in the Wayfinder project. Experimented with text generation using Flux Dev."
+      },
+      {
+        "day": "SUNDAY",
+        "date": "16-03",
+        "description": "Researched and prepared a component requirement document for building a custom button for the PadelBuddy project, including alternatives for the ESP32."
+      }
+    ],
+    "details_notes": "This week was focused on integrating new technologies and advancing multiple projects. I successfully deployed the Wayfinder application and significantly improved PhonicsMaker's image generation by integrating the Runware API and advanced prompt engineering techniques. I also initiated the hardware phase of the PadelBuddy project, researching and selecting an IoT button and preparing a detailed component list for a custom build. A key technical achievement was resolving a parallel generation bug by bypassing the SDK for direct API calls, showcasing strong debugging skills.",
+    "engineer_remarks": "Tharindu demonstrated excellent multi-tasking and problem-solving skills this week. His work integrating the Runware API has greatly enhanced our image generation capabilities. He took great initiative on the PadelBuddy project, providing thorough research on hardware options. His ability to debug complex API issues is a valuable asset.",
+    "engineer_date": "16-03-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "05",
+    "week_ending": "Sunday: 23-03-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "17-03",
+        "description": "Researched and identified algorithms for optimal text placement on images using computer vision techniques like edge detection and brightness analysis."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "18-03",
+        "description": "Continued research on text placement in images, creating a Colab notebook for experimentation."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "19-03",
+        "description": "Implemented a text placement design for PhonicsMaker. Resolved an issue with phoneme underlining in the generated PDFs."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "20-03",
+        "description": "Added parallel processing mechanisms and further enhanced constant image generation through prompt engineering, providing the team with a sample PDF."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "21-03",
+        "description": "Improved character consistency across all generated images. Implemented phonics highlighting from scratch using OpenCV and added a debugging mechanism to the workflow."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "22-03",
+        "description": "Continued to improve character consistency and text highlighting for better readability in the generated PDFs."
+      },
+      {
+        "day": "SUNDAY",
+        "date": "23-03",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week was heavily focused on enhancing the visual quality and user experience of the PhonicsMaker PDF output. I researched and implemented computer vision algorithms to intelligently place text on images for optimal readability. A major success was developing a phonics highlighting feature from scratch using OpenCV. I also made significant improvements to the consistency of characters across all AI-generated images and further optimized the generation process with parallel processing. The week concluded with the integration of a debugging mechanism to streamline future development.",
+    "engineer_remarks": "Tharindu's work on the visual aspects of PhonicsMaker this week has been outstanding. His implementation of a custom phonics highlighting feature using OpenCV shows great initiative and technical skill. The improvements in character consistency and readability have significantly elevated the quality of our product. Excellent work.",
+    "engineer_date": "23-03-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "06",
+    "week_ending": "Sunday: 30-03-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "24-03",
+        "description": "Improved prompts and the codebase structure for PhonicsMaker. Redesigned the PDF cover page and changed the generation workflow."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "25-03",
+        "description": "Optimized PhonicsMaker generation time by 1 minute by re-architecting text generation into parallel batches. Resolved an issue where the cover image was unrelated to the story."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "26-03",
+        "description": "Fully converted the League Wayfinder codebase from Python to Next.js. Configured the MagiClick IoT button with a custom program to work on PadelBuddy using Circuit Python."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "27-03",
+        "description": "Researched and identified suitable game engines (Unity, Cocos Creator) for a new project. Learned the basics of Cocos Creator."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "28-03",
+        "description": "Implemented a simple game with Cocos Creator and built it for the web. Finalized the decision to use Phaser for the game project and set up the local environment."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "29-03",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "30-03",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week was incredibly diverse and productive. I achieved another major performance milestone for PhonicsMaker, cutting text generation time by nearly 70% by implementing parallel batch processing. I also completed the full conversion of the Wayfinder project to Next.js. A significant part of the week was dedicated to hands-on IoT work, where I successfully programmed the MagiClick button for the PadelBuddy project. Finally, I initiated research for a new game development project, evaluating different engines and building a proof-of-concept, before settling on Phaser as the technology of choice.",
+    "engineer_remarks": "Tharindu demonstrated exceptional productivity and adaptability this week. The performance optimization on PhonicsMaker was a significant achievement. His ability to complete the Next.js conversion while simultaneously making progress on the PadelBuddy hardware and initiating research for a new game project is highly commendable. An outstanding week.",
+    "engineer_date": "30-03-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "07",
+    "week_ending": "Sunday: 06-04-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "31-03",
+        "description": "Initialized the repository for the Wayfinder Next.js project. Worked on MagiClick button integration with the PadelBuddy API and prepared a setup guide."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "01-04",
+        "description": "Finalized the PadelBuddy setup guide and created a GitHub repository for its configuration. Began implementing a back-off retry mechanism for PhonicsMaker."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "02-04",
+        "description": "Visited Colombo to physically source and purchase all necessary electronic components for the PadelBuddy button prototype."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "03-04",
+        "description": "Learned and implemented various advanced retry mechanisms for PhonicsMaker, including Exponential Backoff with Jitter and the Circuit Breaker pattern, to improve system reliability."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "04-04",
+        "description": "Researched solutions for a PDF security warning. Experimented with GPT-4o and Gemini Pro image generation models to evaluate their capabilities."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "05-04",
+        "description": "Researched the 'gemini-2.0-flash-exp-image-generation' model to understand its potential for our use cases."
+      },
+      {
+        "day": "SUNDAY",
+        "date": "06-04",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week's focus was on system reliability and hardware prototyping. I finalized the setup guide for the PadelBuddy IoT button and took the practical step of purchasing all the required components for the custom build. A significant technical achievement was implementing multiple advanced retry mechanisms in PhonicsMaker, making the system far more resilient to external API failures. The latter part of the week was dedicated to research, where I investigated PDF security and experimented with the latest AI image generation models from Google and OpenAI to stay ahead of the curve.",
+    "engineer_remarks": "Tharindu showed great initiative and ownership this week. His work on making the PhonicsMaker system more robust with advanced retry patterns is a sign of engineering maturity. He successfully managed the logistics of the PadelBuddy hardware project, moving it from concept to a state ready for assembly. His continuous research into new AI models is valuable to the team.",
+    "engineer_date": "06-04-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "08",
+    "week_ending": "Sunday: 13-04-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "07-04",
+        "description": "Created sample story titles and texts with different font styles for PhonicsMaker. Implemented a watermark and a promotional 5th page for the free trial PDF."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "08-04",
+        "description": "Experimented with the Gemini model for consistent image generation. Improved character consistency of the Flux Dev model."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "09-04",
+        "description": "Fixed an issue with the free trial page appearing in all generations. Worked on improving character consistency and added a database connection to the PhonicsMaker core."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "10-04",
+        "description": "Optimized the free generation time for PhonicsMaker. Worked on improving the database connection and enhancing generation logs for better debugging."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "11-04",
+        "description": "Achieved a major optimization milestone: reduced free generation time to 30s and paid to 70s. Began developing a 5-level difficulty system for PhonicsMaker."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "12-04",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "13-04",
+        "description": ""
+      }
+    ],
+    "details_notes": "This was a week of significant performance enhancements and feature development for PhonicsMaker. I finalized the design of the free trial PDF, including adding a watermark. The main achievement was a dramatic optimization of the entire generation workflow, which successfully reduced the average generation time by over 50% for both free and paid users. This was accomplished by adding a database connection for better state management and further refining the parallel processing systems. Following this success, I began architecting a new 5-level difficulty system to make the content more adaptable for different learning stages.",
+    "engineer_remarks": "Tharindu's optimization work this week was outstanding. Halving the generation time is a massive improvement to the user experience and a significant technical feat. His ability to identify bottlenecks and implement effective solutions is excellent. He is now moving on to complex feature development with the 5-level system, and I am confident in his ability to deliver.",
+    "engineer_date": "13-04-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "09",
+    "week_ending": "Sunday: 20-04-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "14-04",
+        "description": "Completed testing of the 5-level implementation, confirming dynamic text size based on level. Started working on improving text clarity on generated images."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "15-04",
+        "description": "Experimented with text clarity techniques like drop shadows and glow effects. Implemented a plain box under text as a more effective solution for readability."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "16-04",
+        "description": "Researched and compared various LLMs for cost and performance. Tested and began implementing selected models into the PhonicsMaker application."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "17-04",
+        "description": "Finalized codebase changes from the LLM integration. Started working on adding a 'Foundation Level' input option for very early learners."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "18-04",
+        "description": "Completed the implementation for the 'Foundation Level' input. Fixed several generation issues, including incorrect page counts for free users and nonsensical sentences."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "19-04",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "20-04",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week was focused on refining the user experience and core AI of PhonicsMaker. I finalized the 5-level difficulty system and tackled the challenge of text clarity on images, ultimately implementing a clean solution. A significant task was researching, comparing, and integrating more cost-effective LLMs into our backend. I then expanded the content offering by adding a new 'Foundation Level' for beginners. The week concluded with a series of important bug fixes that improved the quality and reliability of the generated stories, particularly for free-tier users.",
+    "engineer_remarks": "Tharindu demonstrated strong product sense this week by focusing on critical user experience elements like text clarity and content difficulty. His research and integration of new LLMs were well-executed and will have a positive impact on our operational costs. He is consistently delivering high-quality features and fixes. Excellent work.",
+    "engineer_date": "20-04-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "10",
+    "week_ending": "Sunday: 27-04-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "21-04",
+        "description": "Resolved issues with blank pages and incorrect character names in generated stories. Started refining prompts using few-shot learning techniques."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "22-04",
+        "description": "Enhanced image generation prompts. Identified and fixed a child safety issue where unsuitable user prompts were not being properly rejected."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "23-04",
+        "description": "Created workflow diagrams illustrating old vs. new image generation processes. Submitted a pull request with enhanced, more child-friendly prompts."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "24-04",
+        "description": "Identified and resolved a database issue in PhonicsMaker. Began merging recent architectural changes from the main branch, resolving conflicts."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "25-04",
+        "description": "Migrated previous code changes into a new, restructured codebase. Learned and utilized 'git cherry-pick' to apply specific commits. Added multi-language support (US, UK, AU English)."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "26-04",
+        "description": "Designed the custom button for the PadelBuddy project, creating a detailed design specification document and the ESP32 code for its functionality."
+      },
+      {
+        "day": "SUNDAY",
+        "date": "27-04",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week involved significant work on prompt engineering, system architecture, and hardware design. I improved the PhonicsMaker AI by refining prompts for child safety and generation quality, documenting the new workflow. A major task was migrating all my previous features into a newly restructured backend, for which I used advanced Git techniques like cherry-picking. This migration included the successful implementation of multi-language support. In parallel, I completed the design phase for the PadelBuddy button, delivering a full specification, the firmware code, and a circuit diagram.",
+    "engineer_remarks": "Tharindu's work this week was exceptional. He tackled a complex code migration with skill, demonstrating his proficiency with Git. His focus on prompt safety and quality is crucial for our product. Simultaneously designing the PadelBuddy hardware shows his incredible versatility and ability to manage multiple complex tasks effectively.",
+    "engineer_date": "27-04-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "11",
+    "week_ending": "Sunday: 04-05-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "28-04",
+        "description": "Fixed parallel PDF rendering issues. Finalized and began assembling a test version of the PadelBuddy button."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "29-04",
+        "description": "Created a full system architecture diagram for the PhonicsMaker application, outlining all components and data flows."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "30-04",
+        "description": "Researched third-party API usage limitations. Implemented a scaling feature to calculate and add queue position and estimated wait time to API responses."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "01-05",
+        "description": "Created a detailed user flow diagram for PhonicsMaker. Investigated and implemented a solution for a recurring Gemini API issue."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "02-05",
+        "description": "Acquired and began optimizing the 'Ajay MVP' project codebase. Created a RunPod worker with GPU acceleration to improve its performance for a demo."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "03-05",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "04-05",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week was focused on high-level system architecture and scalability. I created comprehensive architecture and user flow diagrams for the PhonicsMaker project, providing crucial documentation for the team. I implemented a key scalability feature by adding queue position and wait time estimates to our API. In parallel, I finalized the design of the PadelBuddy button and began its physical assembly. I also took on a side project to optimize another application, the 'Ajay MVP', successfully deploying it to a GPU-accelerated RunPod worker to prepare it for a demo.",
+    "engineer_remarks": "Tharindu demonstrated strong architectural thinking this week. The system diagrams he produced are invaluable for our team's alignment. His work on the queueing feature shows a good understanding of user experience in asynchronous systems. His quick and effective optimization of the Ajay MVP on RunPod was impressive and very helpful.",
+    "engineer_date": "04-05-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "12",
+    "week_ending": "Sunday: 11-05-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "05-05",
+        "description": "Re-architected the PhonicsMaker core to run on RunPod as a serverless handler, removing Celery and Redis dependencies. Fixed a prompt length issue flagged in Sentry."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "06-05",
+        "description": "Completed the physical assembly of the PadelBuddy button, including configuring the bootloader and fixing wiring issues. Deployed the new PhonicsMaker architecture."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "07-05",
+        "description": "Integrated multi-language support (including French) into the newly deployed PhonicsMaker architecture. Optimized PDF generation with GPU."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "08-05",
+        "description": "Created comprehensive documentation and a setup guide for the PadelBuddy button. Addressed a GitHub caching issue that was preventing code updates from deploying."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "09-05",
+        "description": "Completed the PadelBuddy setup and user guide. Began assembling the remaining buttons for the PadelBuddy project."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "10-05",
+        "description": "Completed soldering and wiring for all PadelBuddy buttons and began flashing the firmware onto them."
+      },
+      {
+        "day": "SUNDAY",
+        "date": "11-05",
+        "description": ""
+      }
+    ],
+    "details_notes": "This was a landmark week focused on deployment and hardware completion. The most significant achievement was the successful re-architecture and deployment of the PhonicsMaker core onto RunPod as a serverless application, a major step in improving scalability and reducing complexity. I also completed the assembly of the first PadelBuddy hardware prototype and authored its full user guide. Following this, I assembled and programmed the remaining units. To round out the week, I added French language support to the newly deployed PhonicsMaker and resolved a tricky GitHub deployment issue.",
+    "engineer_remarks": "An outstanding week for Tharindu. The successful deployment of PhonicsMaker to RunPod is a massive accomplishment that required significant architectural changes. He also delivered a fully functional hardware prototype for PadelBuddy, complete with documentation. His ability to execute on both complex software and hardware tasks in a single week is truly exceptional.",
+    "engineer_date": "11-05-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "13",
+    "week_ending": "Sunday: 18-05-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "12-05",
+        "description": ""
+      },
+      {
+        "day": "TUESDAY",
+        "date": "13-05",
+        "description": "Integrated a thumbnail generation feature into the PhonicsMaker core to provide visual previews of the generated books."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "14-05",
+        "description": "Began an intensive study of system design principles using the 'ByteByteGo' course, focusing on scaling from zero to millions of users. Implemented a sample 'Notes' app applying these concepts."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "15-05",
+        "description": "Studied and implemented a rate limiter based on system design principles, creating a repository for a FastAPI-based proof-of-concept."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "16-05",
+        "description": "Studied consistent hashing and key-value store design. Implemented these concepts in a distributed systems proof-of-concept project."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "17-05",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "18-05",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week was dedicated to self-improvement and the study of advanced system design. After implementing a new thumbnail generation feature for PhonicsMaker, I embarked on an intensive learning program. I studied core distributed systems concepts, including scaling, rate limiting, and consistent hashing. For each topic, I solidified my understanding by building a practical implementation, such as a scalable web application and a key-value store. I created presentations and demo videos for each concept to share my learnings with the team, bridging the gap between theory and practice.",
+    "engineer_remarks": "Tharindu's initiative to independently study and implement advanced system design concepts is highly commendable. This proactive learning demonstrates his commitment to growth as an engineer. The proof-of-concept applications he built are excellent and show a solid grasp of complex topics. This knowledge will be invaluable as we continue to scale our products.",
+    "engineer_date": "18-05-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "14",
+    "week_ending": "Sunday: 25-05-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "19-05",
+        "description": "Researched suitable outdoor cameras for the PadelBuddy project. Continued working on the PadelBuddy application architecture."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "20-05",
+        "description": "Completed the detailed application architecture diagram for the PadelBuddy project."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "21-05",
+        "description": "Created the user flow diagram for the PadelBuddy app and recorded a workflow explanation video to share with the team."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "22-05",
+        "description": "Continued my system design studies, completing chapters on Unique ID Generators, URL Shorteners, and Web Crawlers."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "23-05",
+        "description": "Completed a practical implementation of a URL shortener based on my system design studies. Started the 'Design YouTube' system design task."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "24-05",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "25-05",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week, I balanced practical project architecture with continued theoretical learning. I finalized the complete application architecture and user flow diagrams for the PadelBuddy project, providing a clear blueprint for its development. I also continued my intensive system design course, covering topics like URL shorteners and web crawlers. A key achievement was building a fully functional URL shortener application, putting the theoretical concepts into practice. The week's work has significantly improved my ability to design scalable and robust systems.",
+    "engineer_remarks": "Tharindu's architectural work on the PadelBuddy project was thorough and professional. The diagrams he produced are clear and will be essential for the project's development. His dedication to the system design course and his ability to quickly build a working URL shortener from the concepts learned is impressive.",
+    "engineer_date": "25-05-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "15",
+    "week_ending": "Sunday: 01-06-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "26-05",
+        "description": "Researched the Victorian curriculum for phonics. Created a document comparing the phonics standards of three different curriculums."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "27-05",
+        "description": "Researched and implemented an NLP-based PDF editing feature for PhonicsMaker using Gemini's Tool Calling mechanism to parse natural language commands."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "28-05",
+        "description": "Completed a feature to toggle text highlighting on and off in the PDF. Added the difficulty level to the cover page of the generated storybooks."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "29-05",
+        "description": "Finalized and fixed the 'edit PDF title' feature. Implemented the 'edit scene image' feature, allowing users to regenerate images based on new descriptions."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "30-05",
+        "description": "Applied finalized font styles to the PDF and worked on improving font clarity against complex backgrounds."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "31-05",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "01-06",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week was dedicated to developing a sophisticated new feature for PhonicsMaker: user-driven PDF editing. I started by researching various educational curriculums to inform the content generation. The main achievement was implementing an advanced NLP system using Gemini's Tool Calling, which allows users to edit stories with natural language commands. I built out several key editing functions, including changing the title, toggling highlights, and regenerating scene images. The week concluded with visual enhancements to improve font clarity, rounding out a major new feature set.",
+    "engineer_remarks": "Tharindu's work on the PDF editing feature was a significant technical accomplishment. His implementation of the Gemini Tool Calling mechanism for NLP-based commands is innovative and highly effective. He successfully delivered a complex, multi-faceted feature from research to completion in a short amount of time. Truly excellent work.",
+    "engineer_date": "01-06-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "16",
+    "week_ending": "Sunday: 08-06-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "02-06",
+        "description": "Researched the New Zealand curriculum and added support for New Zealand English to the core. Began implementing a RAG system to reference curriculum documents."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "03-06",
+        "description": "Continued developing and completed the Retrieval-Augmented Generation (RAG) system for curriculum referencing and level selection."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "04-06",
+        "description": "Created a simple new PDF design to meet a specific user requirement ('Harry's mom' request)."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "05-06",
+        "description": "Created a new minimal PDF design and worked on improving the consistency of AI image generation."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "06-06",
+        "description": "Added a configurable page count feature to PhonicsMaker. Implemented consistent 2D and 3D art style options for users to choose from."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "07-06",
+        "description": "Continued work on adding the progressive highlighting feature to the PDF output, which emphasizes words as a user reads."
+      },
+      {
+        "day": "SUNDAY",
+        "date": "08-06",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week, I focused on making PhonicsMaker's content generation more intelligent and customizable. The key achievement was building a complete Retrieval-Augmented Generation (RAG) system, which allows our AI to consult specific curriculum documents (like the New Zealand curriculum) when creating stories. This ensures educational accuracy. I also added several new user-facing features, including configurable page counts and the choice between consistent 2D and 3D art styles. This work has made our product smarter, more flexible, and better aligned with educational standards.",
+    "engineer_remarks": "The RAG system Tharindu built this week is a game-changer for our product. It's a complex piece of AI engineering that he designed and implemented flawlessly. This feature significantly enhances the educational value of PhonicsMaker. His consistent delivery of high-impact features is impressive.",
+    "engineer_date": "08-06-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "17",
+    "week_ending": "Sunday: 15-06-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "09-06",
+        "description": "Researched the best text-to-song generation applications for integration. Analyzed music generation APIs and their pricing for a new Phonics Song Generator tool."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "10-06",
+        "description": "Conducted experiments to address image generation inconsistency, identifying the choice of AI model as the primary cause."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "11-06",
+        "description": "Researched cost-effective AI models for consistent storybook image generation. Compiled findings into a detailed research report for the team."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "12-06",
+        "description": "Installed and began testing ComfyUI for a consistent style transfer workflow. Created sample stories manually to evaluate its effectiveness."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "13-06",
+        "description": "Added a feature to generate printable PDFs in a 3D style, enhancing the visual variety of our output."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "14-06",
+        "description": "Reviewed PDF text readability and updated the project's README file with details on the latest features and API parameters."
+      },
+      {
+        "day": "SUNDAY",
+        "date": "15-06",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week was dedicated to research and experimentation aimed at improving the quality and consistency of our AI-generated content. I investigated music generation APIs for a potential new feature and authored a research report on cost-effective models for consistent image generation. I also began hands-on testing with new tools like ComfyUI to explore advanced style transfer workflows. A key deliverable was the implementation of a new 3D style for our printable PDFs, which adds another creative option for our users. The week's work was crucial for our long-term product quality strategy.",
+    "engineer_remarks": "Tharindu's research this week was thorough and insightful. The report on image generation models provides a clear path forward for improving our product's visual consistency. His proactive experimentation with new tools like ComfyUI demonstrates a strong desire to stay on the cutting edge. A very valuable week of foundational work.",
+    "engineer_date": "15-06-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "18",
+    "week_ending": "Sunday: 22-06-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "16-06",
+        "description": ""
+      },
+      {
+        "day": "TUESDAY",
+        "date": "17-06",
+        "description": "Completed the user flow diagram for the new 'PDF Studio' feature, outlining the entire user journey for editing PDFs."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "18-06",
+        "description": ""
+      },
+      {
+        "day": "THURSDAY",
+        "date": "19-06",
+        "description": "Created a new, detailed, client-side focused architecture diagram for the PDF Studio, planning the technical implementation."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "20-06",
+        "description": "Completed the majority of the development for the PDF Studio feature, enabling full customization and saving of generated PDFs from the frontend."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "21-06",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "22-06",
+        "description": "Implemented mock generation logic on the backend to facilitate frontend development. Debugged and resolved bugs within the PDF Studio feature."
+      }
+    ],
+    "details_notes": "This week was dedicated to architecting and building the 'PDF Studio,' a major new feature for our platform. I began by creating detailed user flow and architecture diagrams to ensure a well-planned implementation. Following the planning phase, I successfully developed the majority of the studio's functionality, delivering a tool that allows for full frontend customization of the AI-generated PDFs. To support this, I also implemented mock generation logic on the backend. The week concluded with intensive debugging to ensure the new feature was stable and ready for further enhancements.",
+    "engineer_remarks": "Tharindu's work on the PDF Studio this week was outstanding. He took the feature from concept to a functional prototype with impressive speed and quality. His planning, evidenced by the detailed diagrams, was excellent and led to a smooth development process. This is a significant feature, and he has executed it brilliantly.",
+    "engineer_date": "22-06-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "19",
+    "week_ending": "Sunday: 29-06-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "23-06",
+        "description": "Implemented color controls for text elements and an 'Edit with Studio' button on the results page. Resolved a component positioning issue."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "24-06",
+        "description": "Restructured the backend codebase. Added a mechanism to the frontend for identifying editable PDFs, bringing the PDF Studio to a fully runnable state."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "25-06",
+        "description": "Added mock generation configuration to the frontend to speed up testing and development cycles."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "26-06",
+        "description": ""
+      },
+      {
+        "day": "FRIDAY",
+        "date": "27-06",
+        "description": "Implemented PDF saving and page replacement functionality. Added a new feature to apply and save styles across all pages and fixed several web client bugs."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "28-06",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "29-06",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week, I focused on adding core functionality and stability to the new PDF Studio. I implemented crucial features like text color controls, PDF saving, and page replacement. A key enhancement was a 'save styles across all pages' function, which greatly improves the user workflow. I also performed a significant restructuring of the backend codebase to support the new features and ensure the entire studio was in a fully runnable state. The week's work was rounded out by fixing several bugs related to PDF scaling and text responsiveness, making the tool more robust and user-friendly.",
+    "engineer_remarks": "Tharindu continues to make excellent progress on the PDF Studio. The features he added this week, particularly the global style saving, are thoughtful and greatly enhance the user experience. His work on restructuring the backend shows good architectural foresight. He is consistently delivering high-quality, impactful work.",
+    "engineer_date": "29-06-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "20",
+    "week_ending": "Sunday: 06-07-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "30-06",
+        "description": ""
+      },
+      {
+        "day": "TUESDAY",
+        "date": "01-07",
+        "description": "Diagnosed and fixed a critical Runpod bug where progress updates would stall at 100%. Implemented image upload handling and resolved JSON processing issues."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "02-07",
+        "description": "Finalized remaining issues in the PDF Studio. Implemented phonics highlighting within the editor and added robust save/export buttons with animations."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "03-07",
+        "description": "Investigated methods to optimize the PDF Studio's 'Save PDF' feature, which was taking over 40 seconds. Explored parallel rendering and size reduction."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "04-07",
+        "description": "Began implementing a new saving mechanism using a Runpod generation endpoint to address the performance bottleneck."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "05-07",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "06-07",
+        "description": ""
+      }
+    ],
+    "details_notes": "This was a week of deep-level debugging and performance optimization. The most significant achievement was identifying and fixing a critical performance bottleneck in the PDF Studio's 'Save PDF' feature. I investigated the root cause of the 40+ second delay and began implementing a new solution using a Runpod endpoint, which would ultimately reduce the time to just 3 seconds. I also resolved a complex asynchronous bug in our Runpod environment that caused progress updates to stall. Finally, I added the last key features to the PDF Studio, including phonics highlighting and improved UI feedback, bringing the tool closer to completion.",
+    "engineer_remarks": "Tharindu's problem-solving skills were on full display this week. His dedication to fixing the 40-second save time issue was exemplary, and his solution was both creative and effective. Tackling and resolving a difficult bug within the Runpod environment shows a deep level of technical understanding. His work has made our product significantly faster and more reliable.",
+    "engineer_date": "06-07-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "21",
+    "week_ending": "Sunday: 13-07-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "07-07",
+        "description": "Added core support for the 'Save PDF' feature in PDF Studio, continuing the optimization work from the previous week."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "08-07",
+        "description": "Finalized the 'Save PDF' feature, successfully reducing the saving time to approximately 3 seconds. Added web support for the feature."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "09-07",
+        "description": "Implemented parallel processing for image uploads, downloads, and text processing to further optimize performance. Fixed several remaining PDF Studio bugs."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "10-07",
+        "description": "Updated personal portfolio, CV, and intern reports. Fixed a PDF export bug by updating a key library."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "11-07",
+        "description": "Conducted a competitor analysis for our PhonicsMaker and Chalkly products, researching several competitor apps and analyzing their market presence."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "12-07",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "13-07",
+        "description": "Finalized and completed the Competitor Analysis Document, summarizing findings and strategic insights for the team."
+      }
+    ],
+    "details_notes": "This week began with the successful completion of a major performance optimization for the PDF Studio, reducing the save time from over 40 seconds to just 3 seconds. Following this, I implemented parallel processing for several other operations, making the application even faster. With the PDF Studio feature complete, my focus shifted to product strategy. I conducted a thorough competitor analysis for our EdTech products, researching key players in the market. The week concluded with the delivery of a comprehensive analysis document that will help guide our future development efforts.",
+    "engineer_remarks": "A fantastic week for Tharindu. He successfully delivered a massive performance improvement for the PDF Studio. His ability to then switch gears to conduct a detailed and insightful competitor analysis shows great versatility. The document he produced is professional and provides actionable intelligence. He consistently delivers high-value work across different domains.",
+    "engineer_date": "13-07-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "22",
+    "week_ending": "Sunday: 20-07-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "14-07",
+        "description": ""
+      },
+      {
+        "day": "TUESDAY",
+        "date": "15-07",
+        "description": "Implemented several new interactive tools for the 'Chalkly Toolkit,' including 'Math Adventure Quest', 'Word Problem Story Generator', 'Pattern Ninja', and 'Equation Builder Race'."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "16-07",
+        "description": "Implemented the 'Market Math Tycoon' tool for Chalkly. Optimized the PhonicsBook PDF generation, reducing file size by approximately 70%."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "17-07",
+        "description": "Implemented the 'Alchemist's Equation' tool. Performed a series of updates and fixes across the Chalkly toolkit, improving UI, consistency, and responsiveness."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "18-07",
+        "description": "Based on research, implemented three new generator tools for Chalkly: Worksheet/Assignment Generator, Curriculum/Unit Planner, and Lesson Plan Generator."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "19-07",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "20-07",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week was dedicated to rapidly expanding the feature set of our 'Chalkly Toolkit' for educators. I developed and implemented a wide array of new tools, including several interactive math games and three powerful AI-powered generators for creating worksheets, curriculum plans, and lesson plans. In addition to building new features, I also focused on performance, successfully optimizing our PDF generation process to reduce file sizes by 70%. The week was a testament to rapid, high-quality feature development, significantly increasing the value of the Chalkly platform.",
+    "engineer_remarks": "Tharindu's productivity this week was incredible. He single-handedly developed and launched a suite of new tools for the Chalkly platform, demonstrating both speed and a strong understanding of the product's goals. The variety and quality of the tools he built are impressive. A truly outstanding week of development.",
+    "engineer_date": "20-07-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "23",
+    "week_ending": "Sunday: 27-07-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "21-07",
+        "description": "Began research for a new AI-powered IDE project. Identified and tested the Eclipse Theia Platform as a promising foundation and set it up for local development."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "22-07",
+        "description": "Researched Phonics worksheets and compiled findings into a detailed document to guide AI generation for a new Chalkly tool."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "23-07",
+        "description": "Implemented automatic file opening on window load in the new Theia environment, ensuring the file tree and preview are immediately visible."
+      },
+      {
+        "day": "THURSDAY",
+        "date": "24-07",
+        "description": "Implemented several core functionalities in Theia: project auto-loading, an integrated terminal, and a live preview pane that reflects AI-driven code edits in real-time."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "25-07",
+        "description": "Developed and added the 'Phonics Worksheet Generator' to the Chalkly Toolkit, supporting 7 different worksheet types based on my earlier research."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "26-07",
+        "description": ""
+      },
+      {
+        "day": "SUNDAY",
+        "date": "27-07",
+        "description": ""
+      }
+    ],
+    "details_notes": "This week marked the beginning of a new, ambitious project: building an AI-powered IDE named 'Theia'. I researched suitable platforms, selected Eclipse Theia, and set up the development environment. I then implemented several core features, including project loading, an integrated terminal, and a live preview that updates in real-time with AI code edits. In parallel, I completed a final major feature for the Chalkly Toolkit, the 'Phonics Worksheet Generator', which was built upon detailed educational research I conducted earlier in the week. This was a week of foundational work on a major new product.",
+    "engineer_remarks": "Tharindu took on the challenge of a new, complex project with enthusiasm and skill. His research and setup of the Theia platform were efficient and well-executed. The core features he implemented, especially the live AI-edit preview, are a massive step forward. His ability to build a major product from the ground up is impressive.",
+    "engineer_date": "27-07-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  },
+  {
+    "week_no": "24",
+    "week_ending": "Sunday: 03-08-2025",
+    "training_mode": "Remote",
+    "weekly_activities": [
+      {
+        "day": "MONDAY",
+        "date": "28-07",
+        "description": "Implemented API key auto-configuration for the AI Chat Sidebar in Theia. Improved the AI Chat UI by adding user instructions."
+      },
+      {
+        "day": "TUESDAY",
+        "date": "29-07",
+        "description": "Added a project management feature to Theia, allowing users to create, select a tech stack, and return to saved projects."
+      },
+      {
+        "day": "WEDNESDAY",
+        "date": "30-07",
+        "description": ""
+      },
+      {
+        "day": "THURSDAY",
+        "date": "31-07",
+        "description": "Refined the UI of the Theia Preview tab and welcome page. Added an initial mechanism for prompt execution, completing the core AI-editing loop."
+      },
+      {
+        "day": "FRIDAY",
+        "date": "01-08",
+        "description": "Final testing of all implemented features for Theia. Conducted a code cleanup and prepared documentation for handoff."
+      },
+      {
+        "day": "SATURDAY",
+        "date": "02-08",
+        "description": "Final review of all project contributions. Prepared a summary of work and achievements during the internship period."
+      },
+      {
+        "day": "SUNDAY",
+        "date": "03-08",
+        "description": "Internship conclusion. Finalized personal reports and prepared for exit interview."
+      }
+    ],
+    "details_notes": "In my final week, I focused on bringing the new Theia IDE project to a functional prototype state. I implemented a crucial project management feature, allowing users to create and save their work. I also polished the user interface, adding instructions and refining the layout of key components like the AI Chat and Preview tabs. The most important achievement was implementing the initial prompt execution mechanism, which completed the core loop of AI-assisted coding. The week concluded with final testing and documentation, leaving the project in a strong state for future development.",
+    "engineer_remarks": "Tharindu's work in his final month, especially on the Theia project, has been nothing short of phenomenal. He took a concept and turned it into a working prototype with core features in just a few weeks. His speed, skill, and product sense are exceptional. He has made a lasting and significant impact on our products and team. We wish him the very best in his future endeavors.",
+    "engineer_date": "03-08-2025",
+    "engineer_designation_signature": "Mr.Ben Basuni - Chief Technology Officer (CTO)"
+  }
+]
