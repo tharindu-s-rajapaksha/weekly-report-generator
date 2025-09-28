@@ -1,0 +1,8 @@
+# Ignore the Weekly Reports directory
+Weekly Reports/
+
+# Ignore the combined weekly reports PDF
+Combined_Weekly_Reports.pdf
+
+# Ignore the weekly data JSON file
+data/weekly_data.json
