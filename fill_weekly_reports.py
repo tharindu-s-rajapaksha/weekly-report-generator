@@ -134,33 +134,21 @@ def fill_details_section(doc: Document, data: Dict) -> None:
         for row_idx, row in enumerate(table.rows):
             for cell_idx, cell in enumerate(row.cells):
                 if "SIGNATURE OF TRAINEE" in cell.text:
-                    # Bold the label cell itself, keep label and leave value empty there
-                    set_cell_label_value(cell, "SIGNATURE OF TRAINEE", "")
-                    # Put the actual signature image in the adjacent cell if available
-                    if cell_idx + 1 < len(row.cells):
-                        # Clear the adjacent cell
-                        for paragraph in row.cells[cell_idx + 1].paragraphs:
-                            paragraph.clear()
-                        # Add image to the adjacent cell
-                        if row.cells[cell_idx + 1].paragraphs:
-                            p = row.cells[cell_idx + 1].paragraphs[0]
-                        else:
-                            p = row.cells[cell_idx + 1].add_paragraph()
-                        run = p.add_run()
-                        run.add_picture("data/signature.png", width=shared.Inches(1.5), height=shared.Inches(0.5))
+                    # Clear existing paragraphs
+                    for paragraph in cell.paragraphs:
+                        paragraph.clear()
+                    # Use a single paragraph and add runs
+                    if cell.paragraphs:
+                        p = cell.paragraphs[0]
                     else:
-                        # If no adjacent cell, add image below label in same cell
-                        # Clear existing paragraphs
-                        for paragraph in cell.paragraphs:
-                            paragraph.clear()
-                        # Add label run
                         p = cell.add_paragraph()
-                        r_label = p.add_run("SIGNATURE OF TRAINEE")
-                        r_label.bold = True
-                        # Add newline then image
-                        p.add_run("\n")
-                        run = p.add_run()
-                        run.add_picture("data/signature.png", width=shared.Inches(1.5), height=shared.Inches(0.5))
+                    # Add label run
+                    r_label = p.add_run("SIGNATURE OF TRAINEE")
+                    r_label.bold = True
+                    # Add newline then image
+                    p.add_run("\n")
+                    run = p.add_run()
+                    run.add_picture("data/trainee_signature.png", width=shared.Inches(1.5), height=shared.Inches(0.5))
                     break
 
     # Fill engineer remarks
@@ -184,10 +172,34 @@ def fill_details_section(doc: Document, data: Dict) -> None:
             if "DATE:" in cell.text:
                 # Make the DATE label bold and put the date value below
                 set_cell_label_value(cell, "DATE:", engineer_date)
-            elif "DESIGNATION AND SIGNATURE" in cell.text:
-                # set label bold and value
-                set_cell_label_value(cell, "DESIGNATION AND SIGNATURE", engineer_designation)
+                
+    # Fill engineer signature
+    # Look for cell containing "DESIGNATION AND SIGNATURE" to add signature image
+    for row_idx, row in enumerate(table.rows):
+        for cell_idx, cell in enumerate(row.cells):
+            if "DESIGNATION AND SIGNATURE" in cell.text:
+                # If no adjacent cell, add image below designation in same cell
+                # Clear existing paragraphs
+                for paragraph in cell.paragraphs:
+                    paragraph.clear()
+                # Use a single paragraph and add runs
+                if cell.paragraphs:
+                    p = cell.paragraphs[0]
+                else:
+                    p = cell.add_paragraph()
+                # Add label run
+                r_label = p.add_run("DESIGNATION AND SIGNATURE")
+                r_label.bold = True
+                # Add newline then designation value
+                p.add_run("\n")
+                r_val = p.add_run(str(engineer_designation) if engineer_designation else "")
+                r_val.bold = False
+                # Add newline then image
+                p.add_run("\n")
+                run = p.add_run()
+                run.add_picture("data/supervisor_signature.png", width=shared.Inches(1.5), height=shared.Inches(0.5))
 
+                break
 
 def main():
     template_path = "data/Daily Report Template.docx"
